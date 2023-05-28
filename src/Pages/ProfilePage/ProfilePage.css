@@ -1,0 +1,152 @@
+.ProfilePage {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+
+/* Top */
+.Top {
+    position: relative;
+    height: auto;
+    min-height: 220px;
+    width: 600px;
+
+    padding: 50px 20px 20px 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    overflow: hidden;
+}
+
+.Heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+    padding: 12px 20px 6px 20px;
+
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 1.4rem;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+}
+
+
+/* top left */
+.ProfileImage {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileImage input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* top right */
+.TopRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.UserAddress {
+    width: 400px;
+}
+
+.Label {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 1.7rem !important;
+}
+
+
+/* Center */
+.Center {
+    position: relative;
+    height: auto;
+    width: 600px;
+
+    padding: 60px 20px 20px 20px;
+    margin-bottom: 10px;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* overflow: hidden; */
+}
+
+.Center input {
+    height: 50px !important;
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Bottom */
+.Bottom {
+    position: relative;
+    height: auto;
+    width: 600px;
+
+    padding: 50px 20px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    overflow: hidden;
+}
+
+.editorClassName {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+/* Submit */
+.SubmitButton {
+    width: 200px;
+    margin-top: 20px;
+    padding: 5px;
+
+    background-color: rgba(0, 76, 255, 0.942);
+    color: white;
+    font-size: 1.5rem;
+
+    border: none;
+    border-radius: 100px;
+    transition-delay: 0.1s;
+}
+
+.SubmitButton:hover {
+    opacity: 0.7;
+}
